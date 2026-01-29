@@ -197,6 +197,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3806059675547421090, guid: 09a2ee2762476834083711dd68080b6c, type: 3}
   m_PrefabInstance: {fileID: 14532756}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &14532758 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4582984025718723352, guid: 09a2ee2762476834083711dd68080b6c, type: 3}
+  m_PrefabInstance: {fileID: 14532756}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &58128364
 GameObject:
   m_ObjectHideFlags: 0
@@ -503,6 +508,11 @@ PrefabInstance:
 --- !u!4 &262455515 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3806059675547421090, guid: 09a2ee2762476834083711dd68080b6c, type: 3}
+  m_PrefabInstance: {fileID: 262455514}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &262455516 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4582984025718723352, guid: 09a2ee2762476834083711dd68080b6c, type: 3}
   m_PrefabInstance: {fileID: 262455514}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &263830517
@@ -2664,7 +2674,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5167925059111895691, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5563199296126487199, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_IsActive
@@ -3258,6 +3268,8 @@ MonoBehaviour:
   gameOverClip: {fileID: 8300000, guid: f7d9ed6b95028064896ed5f8f04e92f9, type: 3}
   startingTime: 30
   startingDelay: 2
+  leftHammer: {fileID: 14532758}
+  rightHammer: {fileID: 262455516}
 --- !u!4 &1771864851
 Transform:
   m_ObjectHideFlags: 0
